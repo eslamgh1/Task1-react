@@ -26,7 +26,7 @@ export default function Templatename() {
           <Link to="Portfolio" className="block py-2 px-3 text-white rounded-md md:p-3 focus:bg-teal-500">Portfolio</Link>
         </li>
         <li>
-          <Link to="Contact" className="block py-2 px-3 text-white rounded-md md:p-3 focus:bg-teal-500">Contact</Link>
+          <Link to="Contact" className="block py-2 px-3 text-white rounded-md md:p-3 focus:bg-teal-500">Contact...</Link>
         </li>
   
       </ul>
