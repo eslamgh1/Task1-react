@@ -1,3 +1,3 @@
-# platform built with React 18.
+# Platform built with React 18.
 
 This project,  platform built with React 18 and using JavaScript
