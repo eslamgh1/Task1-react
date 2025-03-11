@@ -1,3 +1,3 @@
-# ECommerce  platform built with React 18.
+# platform built with React 18.
 
-This project, FreshCart – an e-commerce platform built with React 18.
+This project,  platform built with React 18 and using JavaScript
