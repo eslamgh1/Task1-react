@@ -1,36 +1,37 @@
-import React, { useState } from 'react'
-import style from './About.module.css'
-import { useEffect } from 'react'
+import React, { useState } from "react";
+import style from "./About.module.css";
+import { useEffect } from "react";
 
 export default function Templatename() {
-  const [counter, setCounter] = useState(0)
+  const [counter, setCounter] = useState(0);
 
   return (
     <>
-      <div className='h-screen bg-[#1ABC9C] pt-64'>
-        <div className='text-white px-44 relative'>
-          <h1 className="text-center font-bold text-4xl mb-10 after:content-[''] after:bg-white after:w-24 after:h-1 after:absolute after:transform after:translate-x-9 after:translate-y-5 before:bg-white before:w-24 before:h-1 before:absolute before:transform before:translate-x-10 before:translate-y-14 ">
-            ABOUT COMPONENT <br />
-            <i className='fa-solid fa-star text-lg'></i>
-          </h1>
+      <div className="h-screen bg-[#1ABC9C] pt-64 flex justify-center items-center flex-col">
+        <div className="about-content">
+          <div className="text-white">
+            <h1 className="text-center font-bold text-4xl mb-5">
+              ABOUT COMPONENT
+            </h1>
+            <div className="flex items-center justify-center gap-8 mb-10">
+              <div className="bg-white w-[100px] h-[5px]"></div>
+              <i className="fa-solid fa-star"></i>
+              <div className="bg-white w-[100px] h-[5px]"></div>
+            </div>
+          </div>
 
-          <div className='grid grid-cols-1 gap-6 sm:grid-cols-2'>
-            <p className='text-white mb-3  dark:text-gray-400'>
-              Track work across the enterprise through an open, collaborative
-              platform. Link issues across Jira and ingest data from other
-              software development tools, so your IT support and operations
-              teams have richer contextual information to rapidly respond to
-              requests, incidents, and changes.
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+            <p className="text-white mb-3  dark:text-gray-400 m-5">
+              <h2>Key Features:</h2>
+            -User Authentication & Dynamic Shopping Cart & Wishlist  & User Profile.
             </p>
-            <p className='text-white mb-3 dark:text-gray-400'>
-              Deliver great service experiences fast - without the complexity of
-              traditional ITSM solutions.Accelerate critical development work,
-              eliminate toil, and deploy changes with ease, with a complete
-              audit trail for every change.
+            <p className="text-white mb-3 dark:text-gray-400 m-5">
+            <h2>Technical Highlights:</h2>
+            -Built with React 18 for a dynamic and responsive user interface & Styled with Tailwind CSS & Utilized React Router & Integrated React Query & Implemented Context API.
             </p>
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }

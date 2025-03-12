@@ -1,1 +1,23 @@
-.Contact {}
+
+/* Contact.module.css */
+
+/* Default styles */
+.container {
+  margin-bottom: 5rem; /* mb-20 */
+  margin-top: 10rem; /* mt-40 */
+}
+
+/* Media query for screens with a maximum width of 801px */
+@media (max-width: 801px) {
+  .container {
+    margin-bottom: 2rem; /* Adjust as needed */
+    margin-top: 13rem; /* Adjust as needed */
+  }
+  .form {
+    max-width: 28rem; /* max-w-md */
+    margin: 20px;
+  }
+}
+
+
+

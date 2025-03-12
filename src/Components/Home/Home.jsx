@@ -5,26 +5,27 @@ import hambozo from "../../Images/avatar.svg";
 export default function Templatename() {
   const [counter, setCounter] = useState(0);
 
-  
-
   return (
     <>
-      <div className="h-screen bg-[#1ABC9C] pt-64">
-        <div className="text-white text-center px-44 relative">
+      <div className="h-screen bg-[#1ABC9C] pt-64 flex justify-center items-center flex-col">
+        <div className="text-white text-center relative">
           <div class="flex justify-center">
-            <img
-              className="w-32"
-              src={hambozo}
-              alt="Orange triangle"
-            />
+            <img className="w-32" src={hambozo} alt="Orange triangle" />
           </div>
-          <h1 className="font-bold text-4xl mb-1 after:content-[''] after:bg-white after:w-24 after:h-1 after:absolute after:top-48 after:-translate-x-36 before:content-[''] before:bg-white before:w-24 before:h-1 before:absolute before:transform before:translate-x-10 before:translate-y-14">START FRAMEWORK</h1>
 
-            <i className='fa-solid fa-star'></i>
-          <h2 className="mt-6">Graphic Artist - Web Designer - Illustrator Eslam</h2>
+          <div className="home-content">
+            <h1 className="font-bold text-4xl mb-1">START FRAMEWORK</h1>
+            <div className="flex justify-between gap-5 p-4">
+              <div className="bg-white w-[100px] h-[5px]"></div>
+              <i className="fa-solid fa-star"></i>
+              <div className="bg-white w-[100px] h-[5px]"></div>
+            </div>
+          </div>
+          <h2 className="mt-6">
+            Graphic Artist - Web Designer - Illustrator Eslam
+          </h2>
         </div>
       </div>
     </>
   );
 }
-

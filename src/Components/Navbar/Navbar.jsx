@@ -8,12 +8,11 @@ export default function Templatename() {
 
   return <>
 
-
 <nav className="bg-[#2C3E50] fixed  top-0 right-0 left-0 py-5 z-50">
-  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 custom-nav">
     <Link to="" className="flex items-center space-x-3 rtl:space-x-reverse">
   
-        <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">START FRAMEWORK
+        <span className="self-center text-2xl font-semibold whitespace-nowrap text-white uppercase">react framework
         </span>
     </Link>
 
@@ -26,7 +25,7 @@ export default function Templatename() {
           <Link to="Portfolio" className="block py-2 px-3 text-white rounded-md md:p-3 focus:bg-teal-500">Portfolio</Link>
         </li>
         <li>
-          <Link to="Contact" className="block py-2 px-3 text-white rounded-md md:p-3 focus:bg-teal-500">Contact...</Link>
+          <Link to="Contact" className="block py-2 px-3 text-white rounded-md md:p-3 focus:bg-teal-500">Contact</Link>
         </li>
   
       </ul>

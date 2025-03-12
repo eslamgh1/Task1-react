@@ -1,21 +1,27 @@
 import React, { useState } from "react";
 import style from "./Contact.module.css";
 
+
 export default function Templatename() {
   const [counter, setCounter] = useState(0);
 
   return (
     <>
-
-      <div className="container mb-20 mt-40 relative">
-        <div className="text-slate-500 text-5xl mb-20 font-extrabold  text-center relative pb-1">
-          <h1 className='after:content-[""] after:bg-slate-700 after:w-28 after:h-1 after:absolute after:bottom-0 after:left-[600px] before:content-[""] before:bg-slate-700 before:w-24 before:h-1 before:absolute before:bottom-0 before:left-[800px]'>
-            conatct section
-          </h1>
-          <i className='fa-solid fa-star text-[30px]'></i>
+      <div className={`${style.container} mb-20 mt-40`}>
+        <div>
+          <div className="text-slate-500 text-5xl mb-20 font-extrabold  text-center relative pb-1">
+            <h1>
+              conatct section
+            </h1>
+            <div className="flex items-center justify-center gap-8 mt-10">
+              <div className="bg-slate-500 w-[100px] h-[5px]"></div>
+              <i className="fa-solid fa-star"></i>
+              <div className="bg-slate-500 w-[100px] h-[5px]"></div>
+            </div>
+          </div>
         </div>
 
-        <form className="max-w-md mx-auto">
+        <form className={`${style.form} max-w-md mx-auto`}>
           <div className=" relative z-0 w-full mb-5 group">
             <input
               type="text"
