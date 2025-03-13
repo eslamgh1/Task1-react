@@ -4,6 +4,9 @@ import style from "./Contact.module.css";
 
 export default function Templatename() {
   const [counter, setCounter] = useState(0);
+  const handleSubmit = (event) => {
+    event.preventDefault(); // Prevent the default form submission behavior
+  };
 
   return (
     <>
@@ -23,8 +26,8 @@ export default function Templatename() {
           </div>
         </div>
 
-        <form className={`${style.form} max-w-md mx-auto`}>
-          <div className=" relative z-0 w-full mb-5 group">
+        <form className={`${style.form} max-w-md mx-auto`} onSubmit={handleSubmit}>
+        <div className=" relative z-0 w-full mb-5 group">
             <input
               type="text"
               name=""
@@ -37,7 +40,7 @@ export default function Templatename() {
               for="floating_company"
               className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
-              UserName
+              UserNameForTest
             </label>
           </div>
           <div className="relative z-0 w-full mb-5 group">
@@ -53,7 +56,7 @@ export default function Templatename() {
               for="floating_company"
               className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
-              UserAge
+            NameForTest
             </label>
           </div>
           <div className="relative z-0 w-full mb-5 group">
@@ -69,7 +72,7 @@ export default function Templatename() {
               for="floating_company"
               className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
-              UserEmail
+              UserEmailForTest
             </label>
           </div>
           <div className="relative z-0 w-full mb-5 group">
@@ -85,12 +88,12 @@ export default function Templatename() {
               for="floating_company"
               className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
-              UserPassword
+              UserPasswordForTest
             </label>
           </div>
 
           <button
-          onClick={() => {}}
+          // onClick={() => {}}
             type="submit"
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5  dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
