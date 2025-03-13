@@ -22,7 +22,9 @@ export default function Templatename() {
             </div>
           </div>
           <h2 className="mt-6">
-            Graphic Artist - Web Designer - Illustrator Eslam
+          Ecommerce website by ReactJS -  Discover... <a href="https://freshcart-lovat.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <i class="fa-solid fa-link"></i>
+</a>
           </h2>
         </div>
       </div>

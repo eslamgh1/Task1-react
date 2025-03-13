@@ -16,12 +16,12 @@ export default function Templatename () {
               <ul className='text-white font-medium'>
                 <li className='mb-4'>
                   <a href='#' className='hover:underline'>
-                    2215 John Daniel Drive
+                    Egypt , Alexandria
                   </a>
                 </li>
                 <li className='mb-4'>
                   <a href='#' className='hover:underline'>
-                    Clark, MO 65243
+                  Egypt postal code: 21311
                   </a>
                 </li>
               </ul>
@@ -86,7 +86,7 @@ export default function Templatename () {
                     <span className='sr-only'>Twitter page</span>
                   </a>
                   <a
-                    href='#'
+                    href="https://github.com/eslamgh1/Freshcart" target="_blank" rel="noopener noreferrer"
                     className='text-gray-400 hover:text-gray-900 dark:hover:text-white'
                   >
                     <svg
@@ -133,8 +133,8 @@ export default function Templatename () {
               <ul className=' text-white font-medium'>
                 <li className='mb-4'>
                   <span>
-                    Freelance is a free to use, licensed Bootstrap theme created
-                    by Route
+                    Freelance is a free to use..
+                  
                   </span>
                 </li>
               </ul>
@@ -144,7 +144,7 @@ export default function Templatename () {
 
           <div className='px-4 py-6 bg-[#1A252F] sm-flex items-center left-0 right-0 absolute  text-center'>
           <span className='text-sm text-white sm:text-center'>
-              Copyright © Your Website 2021
+              Copyright © Your Website 2025 - By Eslam Gomaa
             </span>
           </div>
         </div>

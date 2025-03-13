@@ -17,7 +17,9 @@ export default function ImagePortfolio() {
   return (
     <div className="container pt-44 px-16">
 <div className="portfolio-content">
-<h1 className="text-center text-slate-800 text-4xl font-bold pb-5 uppercase">projects components</h1>
+<h1 className="text-center text-slate-800 text-4xl font-bold pb-5 uppercase">project components <a href="https://freshcart-lovat.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <i class="fa-solid fa-link"></i>
+</a><a href="https://freshcart-lovat.vercel.app/" target="_blank"></a></h1>
       <div className="flex items-center justify-center gap-8 pb-5">
           <div className="bg-slate-500 w-[100px] h-[5px]"></div>
           <i className="fa-solid fa-star"></i>
@@ -49,7 +51,7 @@ export default function ImagePortfolio() {
           onClick={() => setSelectedImage(null)}
         >
           <img
-            className="max-w-[250rem] max-h-[25rem]"
+            className="max-w-[75%] max-h-[25rem]"
             src={selectedImage}
             alt="selectedImage"
           />

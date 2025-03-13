@@ -11,8 +11,12 @@ export default function Templatename() {
         <div className="about-content">
           <div className="text-white">
             <h1 className="text-center font-bold text-4xl mb-5">
-              ABOUT COMPONENT
+            Fresh cart - Ecommerce project <a href="https://freshcart-lovat.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <i class="fa-solid fa-link"></i>
+</a>
             </h1>
+            
+          
             <div className="flex items-center justify-center gap-8 mb-10">
               <div className="bg-white w-[100px] h-[5px]"></div>
               <i className="fa-solid fa-star"></i>
@@ -20,12 +24,12 @@ export default function Templatename() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-            <p className="text-white mb-3  dark:text-gray-400 m-5">
+          <div className={`${style.aboutText}grid grid-cols-1 gap-6 sm:grid-cols-2`}>
+            <p className="text-white mb-3  dark:text-gray-400 m-5 text-center">
               <h2>Key Features:</h2>
             -User Authentication & Dynamic Shopping Cart & Wishlist  & User Profile.
             </p>
-            <p className="text-white mb-3 dark:text-gray-400 m-5">
+            <p className="text-white mb-3 dark:text-gray-400 m-5 text-center">
             <h2>Technical Highlights:</h2>
             -Built with React 18 for a dynamic and responsive user interface & Styled with Tailwind CSS & Utilized React Router & Integrated React Query & Implemented Context API.
             </p>

@@ -22,7 +22,7 @@ export default function Templatename() {
           <Link  to="About" className="block py-2 px-3 text-white rounded-md md:p-3 focus:bg-teal-500" aria-current="page">About</Link>
         </li>
         <li>
-          <Link to="Portfolio" className="block py-2 px-3 text-white rounded-md md:p-3 focus:bg-teal-500">Portfolio</Link>
+          <Link to="Portfolio" className="block py-2 px-3 text-white rounded-md md:p-3 focus:bg-teal-500">Components</Link>
         </li>
         <li>
           <Link to="Contact" className="block py-2 px-3 text-white rounded-md md:p-3 focus:bg-teal-500">Contact</Link>

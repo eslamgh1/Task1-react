@@ -11,7 +11,9 @@ export default function Templatename() {
         <div>
           <div className="text-slate-500 text-5xl mb-20 font-extrabold  text-center relative pb-1">
             <h1>
-              conatct section
+              conatct section <a href="https://www.linkedin.com/in/eslam-gomaa-hamed-b8035188/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-linkedin"></i>
+</a>
             </h1>
             <div className="flex items-center justify-center gap-8 mt-10">
               <div className="bg-slate-500 w-[100px] h-[5px]"></div>
@@ -88,6 +90,7 @@ export default function Templatename() {
           </div>
 
           <button
+          onClick={() => {}}
             type="submit"
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5  dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
